@@ -14,9 +14,13 @@ public class Main {
     // Attributes --------------------------------------------
     ArrayList<User> users;
 
-    Menu myMenu = new Menu("MENU", "Please choose option: ", new String[]
-            {"1: View user list", "2: Create new user", "3: Delete user", "4: Read file",
-                    "9: Quit"});
+    Menu myMenu = new Menu("MENU", "Please choose option: ", new String[] {
+            "1: View user list",
+            "2: Create new user",
+            "3: Delete user",
+            "4: Read file",
+            "9: Quit"
+    });
 
 
     // File HANDLER -----------------------------------------

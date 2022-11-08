@@ -109,7 +109,7 @@ public class Main {
 
     // Menu option 3 -----------------------------------------
     private void deleteFriend() {
-        System.out.print("Who do you want to remove from friend list? - Please enter email: ");
+        System.out.print("Who do you want to remove from your friend list? - Please enter email: ");
         String friendEmail = ui.readLine();
         int emailCount = 1;
 
